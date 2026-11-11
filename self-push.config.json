@@ -1,0 +1,20 @@
+{
+  "targets": [
+    { "host": "gitea", "base": "https://git.qyhhh.top/api/v1", "owner": "DeepsSeekHarness", "repo": "QQ-dsh", "branch": "main", "tokenEnv": "GITEA_TOKEN" },
+    { "host": "github", "base": "https://api.github.com", "owner": "newbieQQ", "repo": "QQ-dsh", "branch": "main", "tokenEnv": "GITHUB_TOKEN" }
+  ],
+  "components": {
+    "dsh-sansheng-liubu": { "dir": "../dsh-sansheng-liubu", "targets": [
+      { "host": "gitea", "base": "https://git.qyhhh.top/api/v1", "owner": "DeepsSeekHarness", "repo": "dsh-sansheng-liubu", "branch": "master", "tokenEnv": "GITEA_TOKEN" },
+      { "host": "github", "base": "https://api.github.com", "owner": "newbieQQ", "repo": "dsh-sansheng-liubu", "branch": "main", "tokenEnv": "GITHUB_TOKEN" } ] },
+    "dsh-brain": { "dir": "../dsh-cloud-memory", "targets": [
+      { "host": "gitea", "base": "https://git.qyhhh.top/api/v1", "owner": "DeepsSeekHarness", "repo": "dsh-brain", "branch": "main", "tokenEnv": "GITEA_TOKEN" },
+      { "host": "github", "base": "https://api.github.com", "owner": "newbieQQ", "repo": "dsh-brain", "branch": "main", "tokenEnv": "GITHUB_TOKEN" } ] },
+    "workspace-groups-remote": { "dir": "../dsh-workspace-groups-remote", "targets": [
+      { "host": "gitea", "base": "https://git.qyhhh.top/api/v1", "owner": "DeepsSeekHarness", "repo": "workspace-groups-remote", "branch": "main", "tokenEnv": "GITEA_TOKEN" },
+      { "host": "github", "base": "https://api.github.com", "owner": "newbieQQ", "repo": "workspace-groups-remote", "branch": "main", "tokenEnv": "GITHUB_TOKEN" } ] },
+    "dsh-better-chat": { "dir": "../dsh-better-chat", "targets": [
+      { "host": "gitea", "base": "https://git.qyhhh.top/api/v1", "owner": "DeepsSeekHarness", "repo": "dsh-better-chat", "branch": "main", "tokenEnv": "GITEA_TOKEN" },
+      { "host": "github", "base": "https://api.github.com", "owner": "newbieQQ", "repo": "dsh-better-chat", "branch": "main", "tokenEnv": "GITHUB_TOKEN" } ] }
+  }
+}

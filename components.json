@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dsh-sansheng-liubu",
+    "package": "dsh-sansheng-liubu-mode",
+    "version": "0.12.1",
+    "sourceRepo": "DeepsSeekHarness/dsh-sansheng-liubu",
+    "sourceCommit": "126f97e80887f3df1e932c5884cc96f0863e08c1",
+    "vendorPath": "vendor/dsh-sansheng-liubu"
+  },
+  {
+    "id": "dsh-brain",
+    "package": "dsh-brain",
+    "version": "0.8.0",
+    "sourceRepo": "DeepsSeekHarness/dsh-brain",
+    "sourceCommit": "33ed2642f8283839f3339fece1c7fc087c78d0d1",
+    "vendorPath": "vendor/dsh-brain"
+  },
+  {
+    "id": "workspace-groups-remote",
+    "package": "workspace-groups-remote",
+    "version": "1.0.0",
+    "sourceRepo": "DeepsSeekHarness/workspace-groups-remote",
+    "sourceCommit": "96caf19f3447848f881b560fbec0d4dead70a405",
+    "vendorPath": "vendor/workspace-groups-remote"
+  },
+  {
+    "id": "dsh-better-chat",
+    "package": "dsh-better-chat",
+    "version": "0.2.0",
+    "sourceRepo": "DeepsSeekHarness/dsh-better-chat",
+    "sourceCommit": "78147194df352ad7e99b3e33ca10894dd0475643",
+    "vendorPath": "vendor/dsh-better-chat"
+  }
+]
