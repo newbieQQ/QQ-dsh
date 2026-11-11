@@ -24,12 +24,11 @@ config:
   workspaceGroupsRemote: { remoteSsh: {} }
 ```
 
-**从四个独立包迁移**：先在 profile 里移除四个独立 bundle（三省六部含 panel 行），再加 qq-dsh。各组件的数据原地保留——侧车文件、设置命名空间、工作台台账都不动。详见 [docs/迁移指南.md](docs/迁移指南.md)。
+**从四个独立包迁移**：先在 profile 里移除四个独立 bundle（三省六部含 panel 行），再加 qq-dsh。各组件的数据原地保留——侧车文件、设置命名空间、工作台台账都不动。详见《QQ-dsh Wiki》空间的「安装与迁移」页。
 
 ## 文档（Wiki）
 
-- [总览](docs/总览.md) · [安装与迁移](docs/迁移指南.md) · [组件说明](docs/组件说明.md)
-- [自推送](docs/自推送.md) · [冲突与注意事项](docs/冲突与注意事项.md) · [故障排查](docs/故障排查.md) · [版本史](docs/版本史.md)
+详细文档在 Muse 的《QQ-dsh Wiki》空间里：首页、捆绑包构成、安装与迁移、冲突与兼容、自推送、各组件详解、故障排查、版本史。
 
 ## 维护
 
@@ -39,4 +38,4 @@ npm run verify    # 20 项捆绑校验（来源、组合、客户端、patch 形
 npm run self-push # 把本仓库（--components 时连四个组件仓库）同步到 Gitea + GitHub
 ```
 
-组件出处与版本锁定在 [components.json](components.json)。自推送的凭据只走环境变量，见 [docs/自推送.md](docs/自推送.md)。
+组件出处与版本锁定在 [components.json](components.json)。自推送的凭据只走环境变量，见《QQ-dsh Wiki》的「自推送」页。
