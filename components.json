@@ -10,9 +10,9 @@
   {
     "id": "dsh-brain",
     "package": "dsh-brain",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "sourceRepo": "DeepsSeekHarness/dsh-brain",
-    "sourceCommit": "33ed2642f8283839f3339fece1c7fc087c78d0d1",
+    "sourceCommit": "035d63f81632719f1266e8c1e5faa7428208ddf3",
     "vendorPath": "vendor/dsh-brain"
   },
   {
